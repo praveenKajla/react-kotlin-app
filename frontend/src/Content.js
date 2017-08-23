@@ -5,7 +5,7 @@ import './css/mylist.css'
 import Mega from './Mega'
 import Info from './views/Info'
 import Circles from './Circles'
-import SearchBar from './containers/SearchBar'
+import SearchBar from './Containers/SearchBar'
 import ReactModal from 'react-modal';
 import DownIcon from 'grommet/components/icons/base/Down';
 import Header from 'grommet/components/Header';
