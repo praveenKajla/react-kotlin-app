@@ -28,8 +28,9 @@ html,body{
   letter-spacing: 5px;
   cursor: pointer;
   margin-top: 20px;
-  width:200px;
-  font-size: 30px;
+  
+  width:110px;
+  font-size: 10px;
   color: #f7f7f7;
   outline: none;
   height: 35px;
@@ -58,6 +59,52 @@ font-family: 'Raleway', sans-serif;
 
 }
 .buttonADD:hover {
+  transform: scale(1.2);
+  font-size: 14px;
+  transition: transform .5s ease-in-out,font-size .5s ease-in-out;
+}
+.buttonDelete{
+  position: relative;
+  z-index: 1000;
+  letter-spacing: 2px;
+  cursor: pointer;
+  top: 80px;
+  left: 80%;
+  width:120px;
+  margin: 8px;
+  font-size: 14px;
+  color: #f7f7f7;
+  background-color: rgba(232, 51, 42, 0.93);
+  height: 48px;
+  border-color: transparent;
+  font-weight: 200;
+  border-radius: 5px;
+font-family: 'Raleway', sans-serif;
+
+}
+.buttonDelete:hover {
+  transform: scale(1.2);
+  font-size: 14px;
+  transition: transform .5s ease-in-out,font-size .5s ease-in-out;
+}
+.buttonMore{
+  position: relative;
+  z-index: 1000;
+  letter-spacing: 2px;
+  cursor: pointer;
+  width:100px;
+  margin: 12px;
+  font-size: 14px;
+  color: #f7f7f7;
+  background-color: rgba(232, 51, 42, 0.93);
+  height: 35px;
+  border-color: transparent;
+  font-weight: 200;
+  border-radius: 5px;
+font-family: 'Raleway', sans-serif;
+
+}
+.buttonMore:hover {
   transform: scale(1.2);
   font-size: 14px;
   transition: transform .5s ease-in-out,font-size .5s ease-in-out;
