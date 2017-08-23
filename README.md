@@ -15,7 +15,7 @@ The `frontend` sub-project contains the ReactJs+Webpack application.
 
 From the main directory run 
 
-`gradlew build`.
+`gradlew build`. or `./gradlew build` if self bat file doesn't run
 
 It would build the jar file in build/libs folder.
 So Now run 
