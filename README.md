@@ -32,10 +32,10 @@ Our backend is running at http://localhost:8090
 SImply run 
 
 In Developement Mode
-`yarn run start`.
+`npm run start`.
 
 In Production Mode
-`yarn run serve`.
+`npm run serve`.
 
 Head Over to http://localhost:8080 
 
