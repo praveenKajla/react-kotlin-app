@@ -39,6 +39,7 @@ In Production Mode
 
 Head Over to http://localhost:8080 
 
+Note : Do install Dependencies :)
 
 
 ### Hot reloading
