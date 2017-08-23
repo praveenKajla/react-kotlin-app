@@ -1,8 +1,8 @@
-# springBoot-kotlin-react-demo-app
+# Homeflix
 A simple User List Movies and TvSHows application using SpringBoot+Kotlin+ReactJs
 
 --------------------------------------------------------------------------------------
-
+image:https://s3.amazonaws.com/poly-screenshots.angel.co/Project/53/588841/da60cadf381d8632d75a8054284625b8-original.jpg
 
 
 ## Developing
