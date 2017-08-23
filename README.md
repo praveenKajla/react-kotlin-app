@@ -16,12 +16,23 @@ The `frontend` sub-project contains the ReactJs+Webpack application.
 
 From the main directory run 
 
-`gradlew build`. or `./gradlew build` if self bat file doesn't run
+```
+gradlew build
+```
+``. 
+or 
+
+```
+./gradlew build
+```
 
 It would build the jar file in build/libs folder.
 So Now run 
 
-`java  -jar build/libs/random-1.0-SNAPSHOT.jar`.
+```
+java  -jar build/libs/random-1.0-SNAPSHOT.jar
+```
+
 
 Our backend is running at http://localhost:8090
 
@@ -29,14 +40,26 @@ Our backend is running at http://localhost:8090
 
 **You will need npm and yarn to run the dev server and build the project**
 
-`cd frontend`.
+
+```
+cd frontend
+```
+
+
 SImply run 
 
 In Developement Mode
-`npm run start`.
+
+```
+npm run start
+```
 
 In Production Mode
-`npm run serve`.
+
+```
+npm run serve
+```
+
 
 Head Over to http://localhost:8080 
 
