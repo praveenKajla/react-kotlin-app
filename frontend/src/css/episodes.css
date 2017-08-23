@@ -28,8 +28,8 @@ font-family: 'Raleway', sans-serif;
   position: absolute;
   letter-spacing: 2px;
   cursor: pointer;
-  top: 60%;
-  left: 25%;
+  top: 70%;
+  left: 30%;
   width:180px;
   font-size: 14px;
   color: #f7f7f7;
@@ -46,8 +46,9 @@ font-family: 'Raleway', sans-serif;
   letter-spacing: 2px;
   cursor: pointer;
   left: 93%;
+  top: 1%;
   width:30px;
-  font-size: 14px;
+  font-size: 18px;
   color: #f7f7f7;
   background-color: transparent;
   height: 30px;
@@ -65,14 +66,72 @@ font-family: 'Raleway', sans-serif;
   width:500px;
   height: 200px;
   z-index: 2500;
+  outline: 0px;
   position: absolute;
-  top: 10%;
+  top: 5%;
   left:25%;
   background-color: #1a1a1a;
   -webkit-animation-duration: 1s;
   box-shadow: -6px 25px 102px 15px rgba(0,0,0,0.72); 
   
   
+}
+.modalUpdate{
+  outline: 0px;
+  width:600px;
+  height: 600px;
+  z-index: 2500;
+  border:none;
+  position: absolute;
+  top: 5%;
+  left:25%;
+  background-color: #1a1a1a;
+  -webkit-animation-duration: 1s;
+  box-shadow: -6px 25px 102px 15px rgba(0,0,0,0.72); 
+  
+  
+
+}
+.short{
+  position: relative;
+  display: flex;
+  margin-top: 20px;
+}
+.overviewText{
+  font-size: 1.2em;
+  font-weight: 200;
+  color: white;
+  margin-right: 20px;
+  margin:10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.shortText{
+  font-size: 0.9em;
+  font-weight: 200;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin:10px;
+
+}
+.inpOverview{
+
+  margin: 8px;
+  min-width: 480px;
+  min-height: 160px;
+  font-family: 'Raleway', sans-serif;
+}
+.inpRelease{
+
+  margin: 2px;
+  max-width:100px;
+  font-family: 'Raleway', sans-serif;
+}
+.inpTitle{
+
+  margin-left: 8px;
+  min-width:300px;
+  font-family: 'Raleway', sans-serif;
 }
 .modalbg{
   background-color: #c61121;
