@@ -49,4 +49,8 @@ With the dev server running, saving your javascript files or stylus assets will 
 (without browser refresh) of the application.
 
 
+### Databse 
+h2 databse is used  so if mylist shows no movies populate it by adding movies by searching 
+your favourites in ADD MOVIE /ADD TV modal
 
+You can  add, delete and update
