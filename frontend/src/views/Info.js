@@ -31,7 +31,7 @@ import Paragraph from 'grommet/components/Paragraph';
     }
 
         return( <div>
-               <h2 style={{fontFamily: 'Montserrat, sans-serif',letterSpacing:'2px',fontWeight:100,fontSize:'40px',margin:'0 0 22px',color:'#f7f7f7',textDecoration:'none'}}>{currentItem.original_name || currentItem.title}</h2>
+               <h2 style={{fontFamily: 'Montserrat, sans-serif',letterSpacing:'2px',fontWeight:100,fontSize:'40px',margin:'0 0 22px',color:'#f7f7f7',textDecoration:'none'}}>{currentItem.original_name || currentItem.title || currentItem.original_title}</h2>
           
           <h2 style={{fontFamily:'Open Sans',fontWeight:'100',fontSize:'1em',color:'hsla(0,0%,100%,.6)'}}><StarIcon colorIndex="light-1" size="xsmall"/>{`${currentItem.vote_average} (${currentItem.vote_count})`} </h2>
           <h2 style={{fontFamily:'Open Sans',float:'left',fontWeight:'100',margin:'-2.9em 0 0 130px',fontSize:'1em',color:'hsla(0,0%,100%,.6)'}}><CalendarIcon colorIndex="light-1" size="xsmall"/>{year}</h2>
