@@ -1,0 +1,61 @@
+{
+  "name": "grommet-standalone",
+  "version": "0.1.0",
+  "description": "Sample app using Grommet without the development stack.",
+  "main": "src/index.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grommet/grommet-standalone.git"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel": "^6.23.0",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.5.0",
+    "babel-runtime": "^6.22.0",
+    "classnames": "^2.2.3",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "2.1.2",
+    "grommet": "^1.0.0",
+    "history": "^4.6.3",
+    "lodash.throttle": "^4.1.1",
+    "node-sass": "^4.5.0",
+    "prop-types": "^15.5.8",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "react-modal": "^2.2.2",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.7.2",
+    "resolve-url-loader": "^2.1.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.5.0",
+    "babel-runtime": "^6.22.0",
+    "css-loader": "^0.26.2",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot --open --content-base ./ ",
+    
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "serve": "npm run build &&  node server.js "
+  }
+}

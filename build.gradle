@@ -1,0 +1,64 @@
+group 'Homeflix'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.kotlin_version = '1.1.4'
+    ext.spring_boot_version = '1.5.3.RELEASE'
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-allopen:$kotlin_version"
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:$spring_boot_version"
+        classpath "org.jetbrains.kotlin:kotlin-noarg:$kotlin_version"
+    }
+}
+
+apply plugin: 'eclipse'
+apply plugin: "kotlin-spring"
+apply plugin: 'idea'
+apply plugin: 'kotlin'
+apply plugin: 'application'
+apply plugin: "kotlin-jpa"
+apply plugin: 'org.springframework.boot'
+
+
+
+repositories {
+    jcenter()
+
+
+}
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+    //compile 'mysql:mysql-connector-java'
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+    //compile 'org.springframework.boot:spring-boot-starter-security'
+    compile("org.springframework.boot:spring-boot-devtools")
+    compile 'commons-codec:commons-codec:1.10'
+    runtime("com.h2database:h2")
+    compile 'com.fasterxml.jackson.module:jackson-module-kotlin:2.9.0'
+    testCompile 'junit:junit'
+}
+
+defaultTasks 'bootRun'
+
+jar {
+  from('frontend/dist') {
+    into 'static'
+  }
+}
+
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.3'
+}
+
+springBoot {
+    mainClass = 'readinglist.Application'
+}
+
+
