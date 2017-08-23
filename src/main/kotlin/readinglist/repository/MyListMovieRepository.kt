@@ -6,5 +6,6 @@ interface MyListMovieRepository : JpaRepository<Movie,String>{
 
     fun findByWatcher(watcher:String):List<Movie>
     fun findById(id:String):Movie
+    fun findByWatcherAndId(watcher:String,id:String):Movie
 
 }

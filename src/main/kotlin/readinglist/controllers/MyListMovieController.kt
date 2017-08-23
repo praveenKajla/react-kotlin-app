@@ -18,6 +18,13 @@ class MyListMovieController @Autowired constructor(val myListMovieRepository: My
 
 
     @CrossOrigin(origins = arrayOf("http://localhost:8080"))
+    @RequestMapping(value="/api/get/movie/{watcher}/{id}",method= arrayOf(RequestMethod.GET))
+    fun movieById(@PathVariable("watcher") watcher:String,@PathVariable("id") id:String):Movie{
+        val movie:Movie =   myListMovieRepository.findByWatcherAndId(watcher,id)
+        return movie
+    }
+
+    @CrossOrigin(origins = arrayOf("http://localhost:8080"))
     @RequestMapping(value="/api/movie/{watcher}",method= arrayOf(RequestMethod.POST))
     fun addToMyMovieList(@PathVariable("watcher") watcher:String?,@RequestBody movie:Movie):Movie{
         movie.watcher=watcher
@@ -27,7 +34,7 @@ class MyListMovieController @Autowired constructor(val myListMovieRepository: My
     @CrossOrigin(origins = arrayOf("http://localhost:8080"))
     @RequestMapping(value="/api/movie/{watcher}/{id}",method= arrayOf(RequestMethod.DELETE))
     fun deleteById(@PathVariable("watcher") watcher:String,@PathVariable("id") id:String){
-        val movie:Movie =   myListMovieRepository.findById(id)
+        val movie:Movie =   myListMovieRepository.findByWatcherAndId(watcher,id)
         myListMovieRepository.delete(movie)
     }
 
