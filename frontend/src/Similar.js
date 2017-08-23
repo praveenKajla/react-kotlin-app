@@ -18,7 +18,7 @@ class Similar extends Component {
 	
 	
 	render(){
-		console.log(this.props.toptv)
+		
 			const {base,toptv} = this.props;
 			const {params} = this.props;
 			const imageUrl ='http://image.tmdb.org/t/p/original';
