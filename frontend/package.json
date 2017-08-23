@@ -1,12 +1,12 @@
 {
-  "name": "grommet-standalone",
+  "name": "Homeflix",
   "version": "0.1.0",
-  "description": "Sample app using Grommet without the development stack.",
+  "description": "A Simple Netflix Implementation",
   "main": "src/index.js",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/grommet/grommet-standalone.git"
+    "url": "https://github.com/praveenKajla/springBoot-kotlin-react-demo-app.git"
   },
   "dependencies": {
     "axios": "^0.16.2",
@@ -52,8 +52,7 @@
     "webpack-dev-server": "^2.4.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --hot --open --content-base ./ ",
-    
+    "start": "webpack-dev-server --hot --open --content-base ./ ", 
     "build": "webpack",
     "watch": "webpack --watch",
     "serve": "npm run build &&  node server.js "
