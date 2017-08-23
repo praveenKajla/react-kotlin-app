@@ -1,0 +1,17 @@
+.scrollbar {
+    background-color: #F5F5F5;
+    float: left;
+    height: 300px;
+    margin-bottom: 25px;
+    margin-left: 22px;
+    margin-top: 40px;
+    width: 65px;
+       overflow-y: scroll;
+}
+#style-1::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+} 
+#style-1::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}

@@ -1,0 +1,155 @@
+
+ .vignetteM{
+    position:absolute;
+    background-color: black;
+     background-size:contain;
+    top:10;
+    width:100%;
+    height:100%;
+    
+    
+  }
+  .vignetteM:after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+   mix-blend-mode: luminosity;
+  background: radial-gradient(circle, transparent 10%, black 100%);
+}
+.uploadModal{
+  
+
+}
+.buttonX{
+  position: absolute;
+  z-index: 5000;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-top: 20px;
+  width:100px;
+  font-size: 10px;
+  color: #f7f7f7;
+  background-color: transparent;
+  height: 35px;
+  border-color: transparent;
+  font-weight: 200;
+  border-radius: 5px;
+font-family: 'Raleway', sans-serif;
+
+}
+.buttonG{
+  letter-spacing: 2px;
+  cursor: pointer;
+  
+  margin-left: 5px;
+  width:100px;
+  font-size: 10px;
+  color: #f7f7f7;
+  background-color: rgba(11,11,11,0.92);
+  height: 35px;
+  border-color: transparent;
+  font-weight: 200;
+  border-radius: 5px;
+font-family: 'Raleway', sans-serif;
+
+}
+.buttonG:hover{
+  background-color: rgba(123,123,123,0.92);
+}
+.buttonD{
+  text-align: center;
+  padding-top: 30px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 140px;
+  width:380px;
+  font-size: 14px;
+  color: #f7f7f7;
+  background-color: rgba(232, 51, 42, 0.93);
+  height: 48px;
+  border-color: transparent;
+  font-weight: 200;
+  border-radius: 5px;
+font-family: 'Raleway', sans-serif;
+
+}
+.buttonD:hover{
+  transform: scale(1.2);
+  font-size: 14px;
+  transition: transform .5s ease-in-out,font-size .5s ease-in-out;
+}
+.buttonC{
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 140px;
+  width:180px;
+  font-size: 14px;
+  color: #f7f7f7;
+  background-color: rgba(232, 51, 42, 0.93);
+  height: 48px;
+  border-color: transparent;
+  font-weight: 200;
+  border-radius: 5px;
+font-family: 'Raleway', sans-serif;
+
+}
+.buttonC:hover{
+  transform: scale(1.2);
+  font-size: 14px;
+  transition: transform .5s ease-in-out,font-size .5s ease-in-out;
+}
+.buttonW:hover{
+  transform: scale(1.1);
+  font-size: 14px;
+  transition: transform .5s ease-in-out,font-size .5s ease-in-out;
+}
+.buttonW{
+ letter-spacing: 2px;
+ margin-top:20px;
+  margin-left: 250px;
+  width:190px;
+  font-size: 12px;
+  color: #f7f7f7;
+  background-color: transparent;
+  height: 48px;
+  border-color: #f7f7f7;
+  font-weight: 200;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+}
+
+.buttonW:active{
+  background-color: rgba(232, 51, 42, 0.93);
+}
+.buttonW.active{
+  background-color: rgba(232, 51, 42, 0.93);
+}
+
+.videobgM{
+  background-size:contain;
+  z-index: 200;
+  position: relative;
+  margin-left: 10%;
+  margin-top: 8%;
+  width: 1000px;
+  height: 500px;
+   box-shadow: -6px 25px 102px 15px rgba(0,0,0,0.72); 
+}
+.detailsLayer{
+  position: relative;
+  top: 0%;
+  left: 40%;
+  width: 600px;
+  height: 100%;
+   background:-webkit-linear-gradient(bottom,#fff,transparent);
+ background:linear-gradient(to left,#000,#000,#000,#000,#000,transparent);
+}
+.simList{
+  position: absolute;
+  z-index: 5000;
+  top:8%;
+  width: 100%;
+}

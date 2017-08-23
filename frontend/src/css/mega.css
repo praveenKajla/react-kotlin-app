@@ -1,0 +1,126 @@
+.overall{
+	min-height: 100%;
+	width:100%;
+	position: relative;
+	top:2%;
+	background-color: transparent;
+}
+
+.playEpisode {
+	position: absolute;
+	left:37%;
+	top:18%;
+	z-index: 1500;
+	opacity: 0;
+	
+}
+
+.buttonEp{
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	text-indent: 2px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 50%;
+  background: rgba(216, 48, 39,0.4);
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(214, 30, 21, 0.4);
+  animation: pulse 2s infinite;
+}
+.buttonEp:hover{
+
+	transform: scale(1.2);
+	background: rgba(216, 48, 39,0.8);
+  font-size: 26px;
+  transition: transform .5s ease-in-out,font-size .5s ease-in-out;
+}
+
+
+
+
+
+.blobActive{
+	z-index: 1200;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 50%;
+	max-width: 200px;
+	max-height: 345px;
+	margin-left: 25px;
+	margin-top: 20px;
+	box-shadow: -6px 5px 19px 9px rgba(0,0,0,0.72);	
+	transform: scale(1.15);
+
+	
+}
+.blobActive:hover{
+	transform: scale(1.1);
+  font-size: 14px;
+  transition: transform .5s ease-in-out,font-size .5s ease-in-out;
+  box-shadow: -6px 25px 102px 15px rgba(0,0,0,0.72);
+  z-index: 2900;
+  
+  
+}
+.blob{
+	z-index: 1200;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 40%;
+	max-width: 200px;
+	max-height: 345px;
+	margin-left: 30px;
+	margin-top: 45px;
+	box-shadow: -6px 5px 19px 9px rgba(0,0,0,0.72);	
+
+	
+}
+.imageBlob{
+	max-height: 300px;
+}
+.blob:hover .playEpisode{
+	opacity: 1;
+}
+.blob:hover{
+	transform: scale(1.1);
+  font-size: 14px;
+  transition: transform .5s ease-in-out,font-size .5s ease-in-out;
+  box-shadow: -6px 25px 102px 15px rgba(0,0,0,0.72);
+  z-index: 2900;
+  
+  
+}
+.titleText{
+	padding-left: 5px;
+	font-size: 15px;
+	color:rgba(255, 255, 255, 0.45);
+	font-weight: 500;
+	font-family: 'Abel', sans-serif;
+
+}
+
+.blob:hover > .titleText{
+	color: white;
+}
+.yearText{
+	font-size: 15px;
+	padding-right: 10px;
+	float:right;
+	color:rgba(255, 255, 255, 0.45);
+	font-weight: 500;
+	font-family: 'Abel', sans-serif;
+
+}
+
+
+img{
+	max-width: 100%;
+
+
+}
+

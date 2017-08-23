@@ -1,0 +1,44 @@
+.bottom-vignette{
+  background:-webkit-gradient(linear,left bottom,left top,from(#181818),to(transparent));
+  background:-webkit-linear-gradient(bottom,#181818,transparent);
+  background:-moz-linear-gradient(bottom,#181818,transparent);
+  background:-o-linear-gradient(bottom,#181818,transparent);
+  background:linear-gradient(to right,#181818,transparent);
+  width:100%;
+  height:100%;
+  position:absolute;
+  bottom:0}
+  .top-vignette{
+    position:absolute;
+    top:0;
+    width:100%;
+    height:300px;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(20%,rgba(27,27,27,.75)),color-stop(20%,transparent));
+    background:-webkit-linear-gradient(top,rgba(27,27,27,.75) 20%,transparent);
+    background:-moz-linear-gradient(top,rgba(27,27,27,.75) 20%,transparent);
+    background:-o-linear-gradient(top,rgba(27,27,27,.75) 20%,transparent);
+    background:linear-gradient(to bottom,rgba(27,27,27,.75) 20%,transparent)}
+
+#bloc{
+  -vendor-animation-duration: 1s;
+}
+
+.randomCss{
+  
+  -webkit-transition: 450ms all;
+  transition: 450ms all;
+  -webkit-transform-origin: left center;
+          transform-origin: left center;
+}
+
+.vignette {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+}
+
+
+

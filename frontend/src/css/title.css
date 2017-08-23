@@ -1,0 +1,54 @@
+.card{
+  float: left;
+  height:150px;
+  width:200px;
+  background-size:cover;
+  opacity:1;
+  
+  
+}
+.detailsOverlay{
+  opacity: 0;
+  z-index:200;
+  position: absolute;
+ top: 10%;
+ left: 10%;
+}
+.togbg{
+  position: absolute;
+}
+.rowInner{
+  margin-left: 20%;
+  left: 20%;
+  overflow: hidden;
+  width: auto;
+}
+.card:hover{
+  opacity: 1;
+  position: relative;
+  transform: scale(1.1,1.1);
+  z-index: 100;
+   box-shadow: -6px 25px 102px 15px rgba(0,0,0,0.72);
+ 
+  transition:box-shadow .5s ease-in-out,z-index 1s ease-in-out;
+}
+.card:hover .detailsOverlay{
+  opacity:1;
+}
+
+#genreHead{
+   -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .1s;
+}
+
+.headText{
+
+  font-weight: 200;
+  background: -webkit-linear-gradient(#ff4227,#ff4651);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#card {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .3s;
+}

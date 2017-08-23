@@ -1,0 +1,32 @@
+.dashCtrl{
+	position: absolute;
+	height: 600px;
+	width:100%;
+	left: 10%;
+	top: 10%;
+	background-color: #f7f7f7;
+	box-shadow: -6px 25px 102px 15px rgba(0,0,0,0.72);
+}
+.herobg{
+	position: absolute;
+	background-color: #c61121;
+	height:100%;
+	width: 100%;
+}
+.inp1{
+	position: absolute;
+	border-width: 0;
+	font-size: 1.5em;
+	height: 40px;
+
+	width: 300px;
+	top: 10%;
+	left: 20%;
+}
+.inp1:focus{
+	border-style: solid;
+	outline: none;
+box-shadow: -2px 6px 30px 0px rgba(0,0,0,0.75);
+ width: 500px;
+    transition: ease-in-out, width .35s ease-in-out;
+}

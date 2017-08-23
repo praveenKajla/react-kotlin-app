@@ -1,0 +1,26 @@
+.outer{
+	position: absolute;
+	z-index: 60009;
+	top: 60px;
+	left: 250px;
+	background-color: #c61121;
+	border-radius: 300px;
+	width: 600px;
+	height: 600px;
+	box-shadow: -6px 25px 102px 15px rgba(0,0,0,0.72);
+}
+
+#progress{
+	fill: white;
+	
+  transition: stroke-dashoffset 1s linear;
+  stroke: white;
+  stroke-width: 1em;
+}
+#svg3{
+	top: 10px;
+	z-index: 9000;
+	 width: 100%;
+    height: 100%;
+    position:absolute;
+}

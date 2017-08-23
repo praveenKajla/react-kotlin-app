@@ -1,0 +1,17 @@
+.backButton{
+	position: absolute;
+	z-index: 2000;
+	background-color: transparent;
+  letter-spacing: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width:50px;
+  font-size: 30px;
+  color: transparent;;
+  outline: none;
+  height: 35px;
+  border-color: transparent;
+  font-weight: 200;
+  border-radius: 25px;
+font-family: 'Raleway', sans-serif;
+}

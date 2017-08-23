@@ -1,0 +1,32 @@
+.sidder{
+	position: absolute;
+	height: 100%;
+	width: 130px;
+	background-color: #0e0e0e;
+	top: 16%;
+}
+.centralIcon{
+	z-index: 1999;
+	padding-left: 30%;
+	padding-top: 10%;
+}
+.inbox_active{
+	cursor: pointer;
+	height: 16%;
+	width: 130px;
+	background-color: #c61121;
+	
+}
+.inbox_inactive{
+	
+	height: 16%;
+	height: 16%;
+	width: 130px;
+
+   border-width: 1px;
+   border-bottom-width:1px;
+   border-bottom-color:White;
+   border-bottom-style: solid;
+	
+	
+}

@@ -1,0 +1,86 @@
+.cardG{
+  float: left;
+  height:170px;
+  width:220px;
+  margin: 2px;
+  background-image:-webkit-linear-gradient(92deg,#fe2200,#c61121);
+  animation: hue 6s infinite linear;
+  background-size:cover;
+  opacity:0.8;
+  
+  
+}
+#cardX{
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1.6s;
+}
+#motion{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .1s;
+}
+
+.headTextX{
+
+  font-weight: 200;
+  background: #f7f7f7;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headTextXActive{
+
+  font-weight: 200;
+  background: #c61121;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headTextX:active{
+  background: #c61121;
+   font-weight: 200;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.genreHeader1{
+  position: absolute;
+  top: 20%; 
+}
+.genreHeader2{
+  position: absolute;
+  top: 40%; 
+}
+.title {
+	
+	background-image: -webkit-linear-gradient(92deg,red,yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+	font-size:70px;
+	font-weight:300;
+}
+
+
+
+.cardGG{
+  float: left;
+  height:170px;
+  width:240px;
+  margin: 2px;
+  
+  animation: hue 6s infinite linear;
+  background-size:cover;
+  opacity:0.8;
+  
+  
+}
+.cardG:hover{
+	z-index: 12000;
+	opacity: 1;
+	transform: scale(1.1);
+	
+
+}
+.rowInnerG{
+  margin-left: 20%;
+  left: 20%;
+  overflow: hidden;
+  width: auto;
+}

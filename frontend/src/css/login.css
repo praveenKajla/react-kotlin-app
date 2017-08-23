@@ -1,0 +1,151 @@
+.divclassL{
+background: #c61121;
+height: 600px;
+}
+.videobgL{
+  position: absolute;
+  background-size: cover;
+  background-image: url("http://image.tmdb.org/t/p/original//tPpYGm2mVecue7Bk3gNVoSPA5qn.jpg");
+  margin-left: 14.7%;
+  margin-top: 5%;
+  width: 1050px;
+  height: 630px;
+   box-shadow: -6px 25px 102px 15px rgba(0,0,0,0.72);
+ 
+ 
+}
+
+.videobgLinner{
+ 
+  margin-left: 14.7%;
+  margin-top: 5%;
+  width: 800px;
+  height: 500px;
+   box-shadow: -6px 25px 102px 15px rgba(0,0,0,0.72);
+ 
+ 
+}
+.demo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15rem;
+  margin-top: -26.5rem;
+  width: 30rem;
+  height: 53rem;
+  overflow: hidden;
+}
+
+.login {
+  position: relative;
+  height: 100%;
+  background: -webkit-linear-gradient(top, rgba(146, 135, 187, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(146, 135, 187, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+  -webkit-transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25), -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.login.inactive {
+  opacity: 0;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.login__check {
+  position: absolute;
+  top: 16rem;
+  left: 13.5rem;
+  width: 14rem;
+  height: 2.8rem;
+  background: #fff;
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.login__check:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  width: 2.8rem;
+  height: 5.2rem;
+  background: #fff;
+  box-shadow: inset -0.2rem -2rem 2rem rgba(0, 0, 0, 0.2);
+}
+.login__form {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  padding: 1.5rem 2.5rem;
+  text-align: center;
+}
+.loginForm{
+  z-index: 1000;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  height: 300px;
+  width: 500px;
+  background: -webkit-linear-gradient(top, rgba(146, 135, 187, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+ 
+  -webkit-transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25), -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.inputclass{
+  height: 5rem;
+  padding-top: 1rem;
+  box-sizing: border-box;
+  border-bottom:1px solid rgba(255, 255, 255, 0.2)
+}
+
+.inputLogin{
+  outline: none;
+  border:none;
+  display: inline-block;
+  width: 22rem;
+  height: 100%;
+  padding-left: 1.5rem;
+  font-size: 1.5rem;
+  background:transparent;
+  color: #fdfcfd;
+}
+.login__submit {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+  margin: 5rem 0 2.2rem;
+  color: rgba(255, 255, 255, 0.8);
+  background: #FF3366;
+  font-size: 1.5rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+  transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+}
+.login__submit:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -1.5rem;
+  margin-top: -1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border: 2px dotted #fff;
+  border-radius: 50%;
+  border-left: none;
+  border-bottom: none;
+  -webkit-transition: opacity 0.1s 0.4s;
+  transition: opacity 0.1s 0.4s;
+  opacity: 0;
+}
